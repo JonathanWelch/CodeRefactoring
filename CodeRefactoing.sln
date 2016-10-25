@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovingBehaviourBad", "MovingBehaviourBad.csproj", "{5F466725-16BC-4219-B9C4-980FA5CFC6E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovingBehaviourBad", "MovingBehaviourBad\MovingBehaviourBad.csproj", "{5F466725-16BC-4219-B9C4-980FA5CFC6E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovingBehaviourGood", "..\MovingBehaviourGood\MovingBehaviourGood.csproj", "{B3E6E6F8-4B6C-4498-A0BD-CC34A5387DC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovingBehaviourGood", "MovingBehaviourGood\MovingBehaviourGood.csproj", "{B3E6E6F8-4B6C-4498-A0BD-CC34A5387DC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
