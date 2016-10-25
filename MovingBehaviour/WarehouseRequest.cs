@@ -1,8 +1,8 @@
 ﻿namespace MovingBehaviourBad
 {
-    public class CalendarEntryExample
+    public class WarehouseRequest
     {
         public string WarehouseName { get; set; }
-        public string Country { get; set; }
+        public string CountryName { get; set; }
     }
 }

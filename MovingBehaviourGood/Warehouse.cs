@@ -1,8 +1,8 @@
 ﻿namespace MovingBehaviourGood
 {
-    public class CalendarEntryExample
+    public class Warehouse
     {
-        public string WarehouseName { get; set; }
+        public string Name { get; set; }
         public string Country { get; set; }
     }
 }

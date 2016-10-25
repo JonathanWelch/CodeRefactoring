@@ -2,26 +2,17 @@
 {
     public class Worker
     {
-        private CalendarEntryExample _calendarEntryExample;
+        private WarehouseRequest _warehouseRequest;
 
         public void DoWork()
         {
-            _calendarEntryExample = new CalendarEntryExample
+            _warehouseRequest = new WarehouseRequest
             {
                 WarehouseName = "Barnsley",
-                Country = "UK"
+                CountryName = "UK"
             };
 
-            var calendarEntry = ParseEntry();
-        }
-
-        private CalendarEntry ParseEntry()
-        {
-            return new CalendarEntry
-            {
-                Warehouse = _calendarEntryExample.WarehouseName,
-                Country = _calendarEntryExample.Country
-            };
+            var warehouse = _warehouseRequest.ToWarehouse();
         }
     }
 }

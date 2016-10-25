@@ -40,8 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalendarEntry.cs" />
-    <Compile Include="CalendarEntryExample.cs" />
+    <Compile Include="Warehouse.cs" />
+    <Compile Include="WarehouseRequest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Worker.cs" />
   </ItemGroup>
